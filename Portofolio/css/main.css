@@ -96,6 +96,10 @@ img:hover{
     line-height: 3.5rem;
     margin-right: 1rem;
     text-decoration: none;
+    transition: 1s;
+  }
+  .social-icons a:hover{
+    transform: scale(1.2);
   }
   
   .social-icons a:last-child {
@@ -109,6 +113,7 @@ img:hover{
   .dev-icons {
     font-size: 3rem;
   }
+ 
   
   .dev-icons .list-inline-item i:hover {
     color:rgb(233, 10, 10);
@@ -212,4 +217,15 @@ img:hover{
   }
   .nav-link:hover{
     transform: scale(1.4);
+  }
+  #myProgress {
+    width: 50%;
+    height: 20px;
+    background-color: grey;
+  }
+  
+  .myBar {
+    width: 0%;
+    height: 20px;
+    background-color:rgb(233, 10, 10);
   }
