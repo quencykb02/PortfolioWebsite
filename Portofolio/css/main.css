@@ -43,7 +43,7 @@ img:hover{
       padding-left: 17rem;
     }
   }
-  
+ 
   h1,
   h2,
   h3,
@@ -111,9 +111,14 @@ img:hover{
   }
   
   .dev-icons {
-    font-size: 3rem;
+    font-size: 2rem;
+    
   }
- 
+  .dev-icons--placement{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
   
   .dev-icons .list-inline-item i:hover {
     color:rgb(233, 10, 10);
@@ -221,11 +226,51 @@ img:hover{
   #myProgress {
     width: 50%;
     height: 20px;
+    border-radius: 5px;
     background-color: grey;
+    display: inline-block;
+    margin-left: 50px;
+    position: relative;
+    top: -25px;
   }
+  
   
   .myBar {
     width: 0%;
     height: 20px;
+    border-radius: 5px;
     background-color:rgb(233, 10, 10);
   }
+  .myBar{
+    text-align: center;
+    font-size: 0.9rem;
+    color: black;
+    font-weight: bold;
+  }
+  /* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+

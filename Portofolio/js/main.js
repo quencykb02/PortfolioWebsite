@@ -1,4 +1,3 @@
-//  css
 
 var buttonList = document.getElementsByClassName('barIcon')
 var elemList = document.getElementsByClassName('myBar');
@@ -38,8 +37,10 @@ function move() {
             } else {
                 width++;
                 elem.style.width = width + "%";
+                elem.innerHTML = width + "%";
             }
         }
     }
 }
-// html
+
+
