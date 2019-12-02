@@ -13,8 +13,6 @@ function init() {
     }
 }
 
-
-
 function move() {
     var i = 0;
 
@@ -42,5 +40,6 @@ function move() {
         }
     }
 }
+// Form Submit //
 
 
