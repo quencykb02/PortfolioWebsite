@@ -40,6 +40,13 @@ function move() {
         }
     }
 }
-// Form Submit //
+// // Form Submit // https://www.codebrainer.com/blog/contact-form-in-javascript
+var fields = {};
 
+document.addEventListener("DOMcontentLoaded", function () {
+    fields.firstName = document.getElementById('fname');
+    fields.lastName = document.getElementById('lname');
+    fields.eMail = document.getElementById('email');
+    fields.subject = document.getElementById('subject');
+});
 
