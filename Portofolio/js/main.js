@@ -49,4 +49,6 @@ document.addEventListener("DOMcontentLoaded", function () {
     fields.eMail = document.getElementById('email');
     fields.subject = document.getElementById('subject');
 });
+console.log(fields);
+
 
